@@ -1,7 +1,5 @@
 import requests
-import json
-from bs4 import BeautifulSoup
-from wildberries_api_client import content  # выберете свой раздел
+
 
 # https://openapi.wildberries.ru/prices/api/ru/
 
