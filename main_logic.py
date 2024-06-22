@@ -44,8 +44,8 @@ if __name__ == '__main__':
 
     main()
 
-    #schedule.every().day.at(config.start_time).do(main())
+    schedule.every().day.at(config.start_time).do(main())
 
-    #while True:
-        #schedule.run_pending()
-        #time.sleep(1)
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
